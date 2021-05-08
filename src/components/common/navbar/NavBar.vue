@@ -29,6 +29,7 @@
     /*一般导航栏的高度为 44px */
     height: 44px;
     line-height: 44px;
+    color: black;
   }
 
   .left, .right{
