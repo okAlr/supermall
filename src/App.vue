@@ -1,23 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <main-bar></main-bar>
     <router-view/>
   </div>
 </template>
 
 <script>
+  import MainBar from "./components/content/MainBar";
 export default {
-  name: 'App'
+  name: 'App',
+  components: {MainBar}
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import "assets/css/base.css";
 </style>
